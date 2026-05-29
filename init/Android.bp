@@ -24,7 +24,7 @@ cc_library_shared {
     relative_install_path: "hw",
     vendor: true,
     recovery_available: true,
-    srcs: ["BootControl.cpp", "boot_region_control.cpp"],
+    srcs: ["BootControl.cpp"],
 
     header_libs: ["device_kernel_headers"],
 
